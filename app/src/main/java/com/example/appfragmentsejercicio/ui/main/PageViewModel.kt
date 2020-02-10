@@ -12,7 +12,10 @@ class PageViewModel : ViewModel() {
     val text: LiveData<String> = Transformations.map(_index) {
         //CAMBIAMOS EL TEXTO DEL LABEL QUE TIENE CADA TAB, NO EL NOMBRE DE LA TAB !!! (CÓMO???)
         //PARA CAMBIAR EL NOMBRE DE LAS TABS IR AL FICHERO STRINGS
-        "Contactos (?)"
+
+
+
+        "Ejemplo"
     }
 
     fun setIndex(index: Int) {

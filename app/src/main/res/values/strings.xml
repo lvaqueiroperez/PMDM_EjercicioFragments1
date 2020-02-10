@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">AppFragmentsEjercicio</string>
+    <string name="app_name">Teléfono</string>
     <string name="tab_text_1">Contactos</string>
     <string name="tab_text_2">Registro</string>
     <string name="tab_text_3">Favoritos</string>
+    <string name="button">Button</string>
 </resources>
