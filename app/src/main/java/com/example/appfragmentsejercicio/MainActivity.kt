@@ -10,7 +10,7 @@ import android.view.Menu
 import android.view.MenuItem
 import com.example.appfragmentsejercicio.ui.main.SectionsPagerAdapter
 //SE HA USADO LA UI PREDEFINIDA DE "TABS" PARA HACER ESTE EJERCICIO
-//NO TENEMOS POR QUÉ ENTENDERLO TODOx, INTENTAR HACER UNA APP SIMPLE QUE USE FRAGMENTS A PARTIR DE ESTOS PREDEFINIDOS
+//INTENTAR HACER UNA APP SIMPLE QUE USE FRAGMENTS A PARTIR DE ESTOS PREDEFINIDOS Y COMENTAR EL CÓDIGO
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {

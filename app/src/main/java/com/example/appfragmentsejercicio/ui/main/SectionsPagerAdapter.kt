@@ -5,11 +5,12 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
 import com.example.appfragmentsejercicio.R
-//AQUÍ AÑADIMOS TABS
+
+//EN ESTE ARRAY AÑADIMOS LAS TABS QUE SE VAN A MOSTRAR
 private val TAB_TITLES = arrayOf(
     R.string.tab_text_1,
     R.string.tab_text_2,
-    //"R" ES UNA FORMA DE ACCEDER A LA CARMETA DE VALUES, PONEMOS UNA TAB MÁS
+    //"R" ES UNA FORMA DE ACCEDER A LA CARPETA DE VALUES, PONEMOS UNA VARIABLE STRING MÁS Y LA METEMOS EN EL ARRAY
     R.string.tab_text_3
 
 )
@@ -32,7 +33,7 @@ class SectionsPagerAdapter(private val context: Context, fm: FragmentManager) :
     }
 
     override fun getCount(): Int {
-        // Show 2 total pages. (AHORA 3)
+        // Show 2 total pages. (AHORA RETORNA 3 PORQUE HEMOS AÑADIDO UNA TAB MÁS)
         return 3
     }
 }

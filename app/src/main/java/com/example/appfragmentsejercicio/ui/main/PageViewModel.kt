@@ -14,7 +14,6 @@ class PageViewModel : ViewModel() {
         //PARA CAMBIAR EL NOMBRE DE LAS TABS IR AL FICHERO STRINGS
 
 
-
         "Ejemplo"
     }
 
