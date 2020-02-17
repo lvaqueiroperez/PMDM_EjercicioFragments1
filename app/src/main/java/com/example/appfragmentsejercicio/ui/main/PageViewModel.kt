@@ -6,17 +6,16 @@ import androidx.lifecycle.Transformations
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 
+//CLASE USADA PARA EL "PageViewModel"
 class PageViewModel : ViewModel() {
-
+    //VARIABLES"LiveData" DONDE ALMACENAREMOS EL TIPO DE DATO QUE SE MOSTRARÁ EN LOS FRAGMENTS
     private val _index = MutableLiveData<Int>()
     val text: LiveData<String> = Transformations.map(_index) {
-        //CAMBIAMOS EL TEXTO DEL LABEL QUE TIENE CADA TAB, NO EL NOMBRE DE LA TAB !!! (CÓMO???)
-        //PARA CAMBIAR EL NOMBRE DE LAS TABS IR AL FICHERO STRINGS
-
+        //COMO USAMOS EL MISMO FRAGMENT PARA CADA TAB, TODOS TENDRÁN LOS MISMOS O MUY PARECIDOS CONTENIDOS
 
         "Ejemplo"
     }
-
+//FUNCIÓN PARA PONER Y MOSTRAR UN INDEX DISTINTO EN CADA FRAGMENT SI QUEREMOS
     fun setIndex(index: Int) {
         _index.value = index
     }

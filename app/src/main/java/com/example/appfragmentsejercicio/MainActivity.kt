@@ -10,7 +10,6 @@ import android.view.Menu
 import android.view.MenuItem
 import com.example.appfragmentsejercicio.ui.main.SectionsPagerAdapter
 //SE HA USADO LA UI PREDEFINIDA DE "TABS" PARA HACER ESTE EJERCICIO
-//INTENTAR HACER UNA APP SIMPLE QUE USE FRAGMENTS A PARTIR DE ESTOS PREDEFINIDOS Y COMENTAR EL CÓDIGO
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         val tabs: TabLayout = findViewById(R.id.tabs)
         tabs.setupWithViewPager(viewPager)
         val fab: FloatingActionButton = findViewById(R.id.fab)
-
+        //"OnClickListener" PARA MOSTRAR UN "snackbar" CON UN MENSAJE CUANDO PULSAMOS EL BOTÓN DE CORREO
         fab.setOnClickListener { view ->
             Snackbar.make(view, "Enviar mensaje", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()

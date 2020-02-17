@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.example.appfragmentsejercicio.R
-
+//PLACEHOLDER DE LOS FRAGMENTS QUE USAREMOS, PODREMOS MODIFICAR SU CONTENIDO EN "PageViewModel"
 /**
  * A placeholder fragment containing a simple view.
  */
