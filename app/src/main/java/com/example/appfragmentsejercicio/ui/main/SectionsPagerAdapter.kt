@@ -7,7 +7,7 @@ import androidx.fragment.app.FragmentPagerAdapter
 import com.example.appfragmentsejercicio.R
 
 //EN ESTE ARRAY AÑADIMOS LAS TABS QUE SE VAN A MOSTRAR
-//PARA CAMBIAR EL NOMBRE O AÑADIR TABS IR AL FICHERO STRINGS Y CREAR UNA NUEVA VARIABLE
+//PARA CAMBIAR EL NOMBRE O AÑADIR TABS, IR AL FICHERO STRINGS Y CREAR UNA NUEVA VARIABLE
 private val TAB_TITLES = arrayOf(
     R.string.tab_text_1,
     R.string.tab_text_2,

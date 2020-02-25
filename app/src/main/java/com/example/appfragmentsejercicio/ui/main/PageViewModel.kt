@@ -8,7 +8,7 @@ import androidx.lifecycle.ViewModelProvider
 
 //CLASE USADA PARA EL "PageViewModel"
 class PageViewModel : ViewModel() {
-    //VARIABLES"LiveData" DONDE ALMACENAREMOS EL TIPO DE DATO QUE SE MOSTRARÁ EN LOS FRAGMENTS
+    //VARIABLES "LiveData" DONDE ALMACENAREMOS EL TIPO DE DATO QUE SE MOSTRARÁ EN LOS FRAGMENTS
     private val _index = MutableLiveData<Int>()
     val text: LiveData<String> = Transformations.map(_index) {
         //COMO USAMOS EL MISMO FRAGMENT PARA CADA TAB, TODOS TENDRÁN LOS MISMOS O MUY PARECIDOS CONTENIDOS
